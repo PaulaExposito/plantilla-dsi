@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
-    "deploy": "parcel build src/index.thml --public-url /plantilla-dsi/ -d build",
+    "deploy": "parcel build src/index.html --public-url https://paulaexposito.github.io/plantilla-dsi/ -d build",
     "pages": "gh-pages build -d build"
   },
   "keywords": [],
@@ -26,5 +26,8 @@
     "gh-pages": "^2.2.0",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
   }
 }
