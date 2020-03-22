@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
-    "deploy": "parcel build src/index.html --public-url https://paulaexposito.github.io/plantilla-dsi/ -d build",
+    "deploy": "parcel build src/index.html --public-url https://ULL-ESIT-DSI-1920.github.io/dsi-p1-parcel-PaulaExposito -d build",
     "pages": "gh-pages build -d build"
   },
   "keywords": [],
@@ -31,3 +31,4 @@
     "http-server": "^0.12.1"
   }
 }
+
